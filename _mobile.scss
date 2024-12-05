@@ -1,0 +1,225 @@
+@media (max-width: 767px){
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header{
+        border-bottom: none;
+        padding-top: 32px;
+        &__input{
+            display: none;
+        }
+        &__menu{
+            display: none;
+        }
+    }
+    .logo{
+        
+        &__img{
+            width: 99px;
+        }
+    }
+    .header__menu-mobile{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+    .top__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top__title{
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+        &_catalog{
+            font-size: 48px;
+            line-height: 59px;
+            text-align: center;
+        }
+        &_cart{
+            font-size: 48px;
+            line-height: 59px;
+            text-align: center;
+        }
+
+    }
+    .top__text{
+        font-size: 16px;
+        line-height: 32px;
+
+    }
+    .top__link{
+        font-size: 14px;
+
+    }
+    .heading{
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .for-box{
+        padding-top: 32px;
+    }
+    .for{
+        gap: 16px;
+        grid-template-columns: repeat(4, 1fr);
+        &__item{
+            grid-column: 1 / -1;
+            height: 375px;
+            font-size: 28px;
+            line-height: 34px;
+            &_big{
+                height: 245px;
+            }
+        }
+    }
+    .offer-box{
+        padding-top: 32px;
+ 
+    }
+    .offer{
+        row-gap: 32px;
+
+        &__name{
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &__price{
+            font-size: 18px;
+            line-height: 22px;
+        }
+            &__price_sale{
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+    }
+
+
+    .product-box{
+        padding-top: 32px;
+    }
+    .product-link{
+        margin-bottom: 32px;
+    }
+    .product__item{
+        margin-bottom: 14px;
+    }
+
+    .product__form{
+        flex-direction: column-reverse;
+    }
+    .product__filter-form{
+        right: -80px;
+
+    }
+    .product__filter-content{
+        flex-wrap: nowrap;
+        min-width: 190px;
+        max-height: 910px;
+    }
+    .product__filter-button--type{
+        align-self: center;
+    }
+
+    .cart{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .cart__content{
+        grid-column: 1 / -1;
+    }
+    .cart__form{
+        grid-column: 1 / -1;
+    }
+    .cart__img{
+        display: none;
+    }
+    .cart__name{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .cart__text{
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .cart__button{
+        width: 170px;
+    }
+
+
+
+    .footer-box{
+        padding-bottom: 32px;
+    }
+    .footer-content{
+        justify-content: center;
+        gap: 70px;
+    .footer-content__info{
+            gap: 100px;
+        }
+    }
+}
+@media (max-width: 340px){
+    .product__filter-form{
+        right: -60px;
+        padding: 40px 40px;
+    }
+    .product__filter-content{
+        flex-wrap: nowrap;
+        min-width: 190px;
+        max-height: 910px;
+    }
+    .product__filter-button--type{
+        align-self: center;
+    }
+
+    .footer-content{
+        justify-content: center;
+        gap: 70px;
+    .footer-content__info{
+            gap: 70px;
+        }
+    }
+
+
+    .cart__button{
+        width: 140px;
+    }
+    
+    .cart{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .cart__content{
+        grid-column: 1 / -1;
+    }
+    .cart__form{
+        grid-column: 1 / -1;
+    }
+    .cart__img{
+        display: none;
+    }
+    .cart__name{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .cart__info{
+        min-width: 215px;
+    }
+    .cart__text{
+        font-size: 14px;
+        line-height: 17px;
+        min-width: 215px;
+    }
+    .cart__form{
+        grid-column: 1 / -1;
+    }
+    .cart__form-button{
+        width: 250px;
+    }
+    
+}
